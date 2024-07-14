@@ -1,0 +1,25 @@
+.card{
+    margin-top: 10px;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+img{
+    transition: 1s;
+}
+img:hover{
+ transform: scale(1.010);
+}
+@media(min-width:300px) and (max-width:450px){
+    .card{
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
+@media(min-width:760px) and (max-width:1000px){
+    .card{
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
